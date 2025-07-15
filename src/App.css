@@ -2,4 +2,18 @@
 
 @theme inline {
   --color-primary: #05df72;
+  --font-commit: "CommitMono", monospace;
+  --font-commit-weighted: "CommitMonoWeighted", monospace;
+}
+
+@font-face {
+  font-family: "CommitMono";
+  src: url("/src/assets/CommitMono-400-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "CommitMonoWeighted";
+  src: url("/src/assets/CommitMono-700-Regular.otf");
+  font-weight: 700;
 }

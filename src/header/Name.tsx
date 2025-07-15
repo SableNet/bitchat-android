@@ -12,9 +12,13 @@ const Name = () => {
           onChange={(e) => setName(e.target.value)}
           onBlur={() => setEditing(false)}
           autoFocus
+          className="w-24 rounded outline-none"
         />
       ) : (
-        <span onClick={() => setEditing(true)} className="cursor-pointer">
+        <span
+          onClick={() => setEditing(true)}
+          className="cursor-pointer w-full outline-none"
+        >
           @{name}
         </span>
       )}
