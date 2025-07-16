@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className=" h-fit w-fit rounded-lg text-primary bg-green-900 p-4 flex flex-col gap-2">
-      <h3 className="text-xl">About bitchat*</h3>
+      <h3 className="text-xl">About sablechat*</h3>
       <h5 className="text-sm">
         Decentralized mesh messaging over Bluetooth LE and Wifi p2p too!
       </h5>

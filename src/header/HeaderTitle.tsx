@@ -1,5 +1,5 @@
 const HeaderTitle = () => {
-  return <div>bitchat*</div>;
+  return <div>sablechat*</div>;
 };
 
 export default HeaderTitle;
