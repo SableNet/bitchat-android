@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <div
       className={clsx(
-        "flex p-2 w-full gap-4",
+        "flex p-2 w-full gap-4 text-primary",
         isMultiline ? "items-end" : "items-center"
       )}
     >

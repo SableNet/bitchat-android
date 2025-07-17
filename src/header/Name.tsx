@@ -15,10 +15,7 @@ const Name = () => {
           className="w-24 rounded outline-none"
         />
       ) : (
-        <span
-          onClick={() => setEditing(true)}
-          className="cursor-pointer w-full outline-none"
-        >
+        <span onClick={() => setEditing(true)} className="w-full outline-none">
           @{name}
         </span>
       )}
