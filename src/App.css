@@ -17,3 +17,8 @@
   src: url("/src/assets/CommitMono-700-Regular.otf");
   font-weight: 700;
 }
+
+::selection {
+  background-color: #0ddf72;
+  color: black;
+}
